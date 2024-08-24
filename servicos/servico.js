@@ -44,7 +44,7 @@ export const calcularReajuste = (valor, dataInicialMes, dataInicialAno, dataFina
 
 export const validacaoErro = (valor, dataInicialMes, dataInicialAno, dataFinalMes, dataFinalAno) => {
   const anoLimiteFinal = historicoInflacao[historicoInflacao.length - 1].ano;
-  const anoLimiteInicial = historicoInflacao[0].ano
+  const anoLimiteInicial = historicoInflacao[0].ano;
   const mesLimiteFinal = historicoInflacao[historicoInflacao.length - 1].mes;
   if (
     isNaN(valor) ||
