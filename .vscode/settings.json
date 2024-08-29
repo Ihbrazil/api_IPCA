@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/4a839291-1d4e-4641-b2a3-ffa6494cfe20/resourceGroups/historicoIPCA/providers/Microsoft.Web/sites/historicoIPCA",
+    "appService.deploySubpath": "."
+}
